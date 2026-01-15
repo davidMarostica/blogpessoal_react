@@ -1,10 +1,10 @@
 function Cadastro() {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-full h-screen">
         <div
           className="bg-[url('https://i.imgur.com/ZZFAmzo.jpg')] lg:block hidden bg-no-repeat 
-                    w-full h-96 lg:h-auto bg-cover bg-center"
+                    w-full h-screen bg-cover bg-center"
         ></div>
         <form className="flex justify-center items-center flex-col w-full px-8 py-12 gap-3">
           <h2 className="text-slate-900 text-5xl">Cadastrar</h2>

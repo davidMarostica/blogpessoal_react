@@ -3,17 +3,19 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Cadastro from "./pages/cadastro/Cadastro";
 import Home from "./pages/home/Home";
+import Login from "./components/login/Login";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Navbar />
-        <div className="flex flex-col min-h-screen">
-          <div className="flex-grow flex items-center justify-center">
+        <div className="flex flex-col flex-grow">
+          <div className="flex-grow flex items-center justify-center w-full">
             <Routes>
               <Route path="/home" element={<Home />} />
-              <Route path="/" element={<Cadastro />} />
+              <Route path="/cadastro" element={<Cadastro />} />
+              <Route path="/login" element={<Login />} />
             </Routes>
           </div>
         </div>
