@@ -15,6 +15,7 @@ function Footer() {
             Blog Pessoal Generation | Copyright: {data}
           </p>
           <p className="text-lg">Acesse nossas redes sociais</p>
+          <hr className="border-white w-full my-4" />
           <div className="flex gap-2">
             <a href="https://www.linkedin.com/in/seu_usuario" target="_blank">
               <LinkedinLogoIcon size={48} weight="bold" />
