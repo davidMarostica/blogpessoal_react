@@ -30,7 +30,6 @@ export const login = async (
     const resposta = await api.post<UsuarioLogin>(url, dados);
     setDados(resposta.data);
 
-    // Armazenar token no localStorage para autenticação futura
     if (resposta.data.token) {
       localStorage.setItem("token", resposta.data.token);
     }
@@ -54,7 +53,6 @@ export const buscar = async (
   }
 };
 
-// Cadastrar Tema (POST)
 export const cadastrarTema = async (
   url: string,
   dados: Tema,
@@ -70,7 +68,6 @@ export const cadastrarTema = async (
   }
 };
 
-// Atualizar Tema (PUT)
 export const atualizarTema = async (
   url: string,
   dados: Tema,
