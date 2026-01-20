@@ -1,7 +1,7 @@
 function Home() {
   return (
     <>
-      <div className="bg-indigo-900 flex justify-center w-full py-20">
+      <div className="bg-green-600 flex justify-end w-full py-8 px-4">
         <div className="container grid grid-cols-1 lg:grid-cols-2 text-white items-center gap-8">
           <div className="flex flex-col gap-4 items-start justify-center">
             <h2 className="text-5xl font-bold">Seja Bem Vinde!</h2>
@@ -10,7 +10,7 @@ function Home() {
             <div className="flex justify-start gap-4">
               <button
                 className="rounded text-white 
-                                            border-white border-solid border-2 py-2 px-4 cursor-pointer hover:bg-white hover:text-indigo-900 transition"
+                                            border-white border-solid border-5 py-2 px-10 cursor-pointer hover:bg-white hover:text-indigo-900 transition"
               >
                 Nova Postagem
               </button>
@@ -21,7 +21,7 @@ function Home() {
             <img
               src="https://i.imgur.com/fyfri1v.png"
               alt="Imagem Página Home"
-              className="w-2/3"
+              className="w-custom h-custom"
             />
           </div>
         </div>
